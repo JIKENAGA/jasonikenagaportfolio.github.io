@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align content */
+    height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%; /* Full width */
+    max-width: 1200px;
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #763131; /* Dark background */
+    color: black;
+    padding: 1rem 2rem; /* Spacing */
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4CAF50; /* Highlight color on hover */
+}
+
+/* Flexbox Container for Two Divs */
+.flex-container {
+    display: flex; /* Side-by-side layout */
+    width: 80%; /* Container width */
+    max-width: 1200px;
+    margin: 30px auto; /* Center the container and add space */
+    gap: 20px; /* Space between divs */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box {
+/* Equal width for both divs */
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    /* color: #fff; */
+    border-radius: 10px;
+}
+
+/* Background Colors */
+.box1 {
+    flex: 1; 
+    /* border: 2px solid #000000; */
+    background-color: #763131;
+    height: 420px;
+}
+
+.box2 {
+    flex: 2; 
+    
+}
+.wacconnectbox {
+    flex: 1;
+    object-fit: cover;
+    height: 200px;
+}
+.bikesharebox {
+    flex:1 ;
+    height: 447px;
+    overflow:hidden;
+}
+.resumebox{
+    text-align: center;
+    font-size: 1.5rem;
+    flex:1;
+
+}
+.home {
+    width: 50%; /* Set a width */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text inside */
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 2.5rem;
+
+}
+.linkcolor{
+    color: #26667f
+}
+
+.wacconnectdiv{
+    margin-top: 20px;
+}
+
+.pagedescription{
+    max-width: 1200px;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.wacconnectdescription{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    /* color: #fff; */
+    border-radius: 10px;
+    flex: 1;
+}
+.wacconnectcontainer{
+    display: flex; /* Side-by-side layout */
+    width: 80%; /* Container width */
+    max-width: 1200px;
+    margin: 30px auto; /* Center the container and add space */
+    gap: 20px; /* Space between divs */
+    margin-top: 20px;
+}
+.background{
+    max-width: 1200px;
+    width: 80%;
+    background-color: #e99696;
+    min-height:100vh;
+}
+.appdescriptionbox{
+    text-align: center;
+    font-size: 1.2rem;
+    border-color: black;
+    flex: 1;
+}
+.wacconnecdescriptionbox{
+    margin: 10px;
+    font-size: 1rem;
+}
